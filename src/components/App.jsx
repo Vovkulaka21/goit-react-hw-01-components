@@ -2,8 +2,8 @@
 import Profile from './Profile/Profile';
 import user from '../data/user.json';
 // // TASK2
-// import Statisctics from "./Statistics/Statistics"
-// import data from "../data/data.json"
+import Statisctics from "./Statistics/Statistics"
+import data from "../data/data.json"
 // // TASK3
 // import FriendList from "./FriendList/FriendList"
 // import friends from "../data/friends.json"
@@ -13,6 +13,7 @@ import user from '../data/user.json';
 
 export const App = () => {
   return (
+    <>
     <Profile
       username={user.username}
       tag={user.tag}
@@ -20,5 +21,7 @@ export const App = () => {
       avatar={user.avatar}
       stats={user.stats}
     />
+    <Statisctics title="Upload stats" stats={data} />
+    </>
   );
 };
