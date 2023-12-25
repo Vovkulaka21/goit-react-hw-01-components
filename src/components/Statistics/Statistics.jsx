@@ -1,7 +1,6 @@
 import css from './Statistics.module.css';
 
-const Statisctics = ({ title, stats }) => {
-
+const Statisctics = ({ title, stats = [] }) => {
   const statsList = stats.map(stat => (
     <li key={stat.id} className={css.item}>
       <span>{stat.label}</span>
