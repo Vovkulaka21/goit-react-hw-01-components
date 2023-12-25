@@ -1,6 +1,6 @@
-import FriendListItem from "./FriendListItem"
+// import FriendListItem from "./FriendListItem"
 
 
-const FriendList = (second) => { third }
+// const FriendList = (second) => { third }
 
-export default FriendList
+// export default FriendList
