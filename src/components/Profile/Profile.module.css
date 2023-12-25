@@ -22,7 +22,6 @@
 .stats {
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;
     background-color: rgba(36, 97, 178, 0.722);
     border: 1px solid black;
     max-width: 100%;
