@@ -1,19 +1,19 @@
-
+import css from './Statistics.module.css';
 
 const Statisctics = ({ title, stats }) => {
+
   const statsList = stats.map(stat => (
-    <li className="item">
-      <span className="label">{stat.label}</span>
-      <span className="percentage">{stat.percentage}%</span>
+    <li key={stat.id}>
+      <span>{stat.label}</span>
+      <span>{stat.percentage}%</span>
     </li>
   ));
-  return (
-    <section className="statistics">
-      <h2 className="title">{title}</h2>
 
-      <ul className="stat-list">
-        {statsList}
-      </ul>
+  return (
+    <section className={css.statistics}>
+      <h2 className={css.title}>{title}</h2>
+
+      <ul className={css.statlist}>{statsList}</ul>
     </section>
   );
 };
