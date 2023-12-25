@@ -1,0 +1,23 @@
+.statistics {
+    padding: 10px;
+    margin: 0 auto;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+}
+.statlist {
+    display: flex;
+    gap: 5px;
+    background-color: aquamarine;
+}
+.item {
+    align-items: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
