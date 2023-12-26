@@ -1,7 +1,14 @@
 .table {
+    width: 320px;
     margin: 0 auto;
     background-color: aqua;
+    border: none;
+    text-align: center;
 }
 .head {
     background-color: aquamarine;
+    
+}
+.block {
+    outline: 1px solid magenta;
 }
