@@ -10,10 +10,10 @@ const TransactionHistory = ({ transactions }) => {
     </tr>
   ));
 
-  
+
   return (
-    <table>
-      <thead>
+    <table className={css.table}>
+      <thead className={css.head}>
         <tr>
           <th>Type</th>
           <th>Amount</th>
